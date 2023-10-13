@@ -1,8 +1,9 @@
 import AspectRatio from '@mui/joy/AspectRatio';
-import Button from '@mui/joy/Button';
 import Card from '@mui/joy/Card';
 import CardContent from '@mui/joy/CardContent';
 import Typography from '@mui/joy/Typography';
+import IconLinkGroup from './IconLinkGroup';
+
 
 export default function BioCard() {
   return (
@@ -29,6 +30,7 @@ export default function BioCard() {
           and MERN stacks. I have provided some of my personal projects below to demonstrate my 
           capabilities in various technologies. Thank you for your time.
         </Typography>
+        <IconLinkGroup />
       </CardContent>
 
     </Card>

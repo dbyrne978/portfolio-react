@@ -14,6 +14,7 @@ export default function IconLinkGroup() {
       }}
     >
       <IconButton
+        color='primary'
         component="a"
         href="https://github.com/dbyrne978"
         target="_blank"
@@ -22,6 +23,7 @@ export default function IconLinkGroup() {
         <GitHubIcon />
       </IconButton>
       <IconButton
+        color='primary'
         component="a"
         href="https://www.linkedin.com/in/daniel-byrne-dev/"
         target="_blank"
@@ -30,6 +32,7 @@ export default function IconLinkGroup() {
         <LinkedInIcon />
       </IconButton>
       <IconButton
+        color='primary'
         component="a"
         href="mailto:dbyrne978@gmail.com"
         target="_blank"
@@ -38,6 +41,7 @@ export default function IconLinkGroup() {
         <EmailIcon />
       </IconButton>
       <IconButton
+        color='primary'
         component="a"
         href="./Daniel Byrne's Resume.pdf"
         target="_blank"

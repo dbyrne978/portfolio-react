@@ -9,6 +9,7 @@ export default function BioCard() {
   return (
     <Card
       orientation='horizontal'
+      variant='soft'
       sx={{ maxWidth: 800 }}
     >
 

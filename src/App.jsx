@@ -1,11 +1,12 @@
 import './App.css'
 import '@fontsource/inter';
+import BioCard from './components/BioCard.jsx'
 
 function App() {
 
   return (
     <div>
-      hello
+      <BioCard />
     </div>
   )
 }

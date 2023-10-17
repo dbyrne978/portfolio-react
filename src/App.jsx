@@ -9,7 +9,12 @@ function App() {
   return (
     <CssVarsProvider>
       <BioCard />
-      <ProjectCard />
+      <ProjectCard 
+        projectTitle = {"Etch-a-Sketch"}
+        mobileCompatibility = {false}
+        projectAddress = {'http://www.danielbyrne.dev'}
+        projectImage = {"./selfie.jpg"}
+      />
     </CssVarsProvider>
   )
 }

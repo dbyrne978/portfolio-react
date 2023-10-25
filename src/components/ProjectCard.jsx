@@ -29,12 +29,10 @@ export default function ProjectCard({
           href={projectAddress}
           textColor="text.primary"
           overlay
-          endDecorator={
-            <MobileOffIcon />
-          }
         >
           {projectTitle}
         </Link>
+        {!mobileCompatibility && <MobileOffIcon />}
         <Typography level="body-sm">
           Demonstrated proficiency in DOM manipulation.
         </Typography>

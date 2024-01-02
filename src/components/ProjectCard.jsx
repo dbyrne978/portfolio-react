@@ -15,7 +15,7 @@ export default function ProjectCard({
   projectImage
 }) {
   return (
-    <Card sx={{ width: 320, maxWidth: '100%', boxShadow: 'lg' }}>
+    <Card sx={{ height: 320, boxShadow: 'lg' }}>
       <CardOverflow>
         <AspectRatio sx={{ minWidth: 200 }}>
           <img

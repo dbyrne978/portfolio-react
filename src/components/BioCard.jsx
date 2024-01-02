@@ -28,8 +28,8 @@ export default function BioCard() {
         <Typography level="body-md" sx={{ textAlign: 'left' }}>
           Hello, my name is Daniel Byrne. I am a software developer 
           currently looking for new opportunities. I have built applications using both the C# 
-          and MERN stacks. I have provided some of my personal projects below to demonstrate my 
-          capabilities in various technologies. Thank you for your time.
+          and MERN stacks. My GitHub contains the repositories for my current personal projects
+          if you would like to see my capabilities as a developer. Thank you for your time.
         </Typography>
         <IconLinkGroup />
       </CardContent>
